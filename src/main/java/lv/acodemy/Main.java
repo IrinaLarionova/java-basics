@@ -44,7 +44,7 @@ public class Main {
         System.out.printf("%s %s", name, surname);
         System.out.printf("%s %s", name, surname);
 
-        System.out.println(String. format(("My name is %s. Me surname is: %s", name, surname));
+        System.out.println(String. format(("My name is %s. Me surname is: %s"), name, surname));
 
         // Operator
         int a = 10;
