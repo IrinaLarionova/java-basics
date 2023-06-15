@@ -161,20 +161,13 @@ public class ArraysIfs {
         
         int[] numArray = {4, 10, 5};
         int maxNum = 0;
-        if (numArray[0] < numArray[1]) {
-            maxNum = numArray[1];
-        } else if (numArray[1] < numArray[2]) {
-            maxNum = numArray[2];
-        } else if (numArray[3]) {
-            
-        }
 
     }
 
-
-    }
 
 }
+
+
 
 
 
