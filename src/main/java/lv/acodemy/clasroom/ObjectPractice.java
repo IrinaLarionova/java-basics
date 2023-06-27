@@ -85,6 +85,16 @@ public class ObjectPractice {
         njusha.feed("fish");
 
 
+//
+
+        //XPATH naijti ljuboj element universaljnij metod;!
+        //ID (mozno privjazatj stilj, iskatj tocnee vsego)!!!
+        //CLASS NAME (mozno iskatj, mozet bitj odin u neskoljko elementov, ne sovsem udobno)!!
+        //PARTIAL LINK(castj ssilki)
+        // BY LINK (iskatj po ssilke)
+        //CSS SELECTOR
+        //TAG NAME
+
 
 
 
