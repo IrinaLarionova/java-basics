@@ -84,6 +84,23 @@ public class Loops {
         
         // Scanner obrabativaet dannie mozet bitj nadelen svojstvami; cto to delatj
 
+        Scanner myScanner = new Scanner(System.in);
+        Random randomizer = new Random();
+        int randomNumber = randomizer.nextInt(5);
+
+
+        boolean isGuessed = false;
+        while (!isGuessed) {
+            System.out.println("Please enter number I guessed:");
+            int inputNumber = myScanner.nextInt();
+            if (randomNumber == inputNumber) {
+                System.out.println("You guessed the number!");
+                isGuessed = true;
+            } else {
+                System.out.println("Try again!");
+            }
+        }
+
         //TODO: Limit guess with 3 times;
 
         String name = "Irina";
